@@ -14,6 +14,9 @@
     border-radius: 14px;
 }
 
+::selection {
+    background-color: #E5C07B;
+}
 
 
 body {
@@ -89,4 +92,5 @@ a {
 
 .user-type:focus {
     outline: none;
+    cursor: default;
 }

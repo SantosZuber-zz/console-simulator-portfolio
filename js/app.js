@@ -76,4 +76,5 @@ form.addEventListener("submit", (e) => {
   }
   /**/
   userType = document.getElementById("user-type").value = "";
+  actualConsole.scrollIntoView();
 });
