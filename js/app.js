@@ -58,14 +58,18 @@ form.addEventListener("submit", (e) => {
   if (userType == "help") {
     returnConsoleCustom(
       userType,
-      "[Console-simulation portfolio, created by Santos] <br><br> clear: to clear all of your previous commands <br><br> github: to see my github profile"
+      "[Console-simulation portfolio, created by Santos] <br><br> clear: to clear all of your previous commands <br><br> contact: to see all my contact info"
     );
   } else if (userType == "clear") {
     document.location.reload();
-  } else if (userType == "github") {
+  } else if (userType == "contact") {
     returnConsoleCustom(
       userType,
-      `My github profile is: <a href="https://github.com/SantosZuber" target="_blank" >https://github.com/SantosZuber</a>`
+      `
+      My GitHub: <a href="https://github.com/SantosZuber" target="_blank" >https://github.com/SantosZuber</a> <br><br>
+      My LinkedIn: <a href="https://www.linkedin.com/in/santos-zuberbuhler" target="_blank" >https://www.linkedin.com/in/santos-zuberbuhler</a> <br><br>
+      My E-mail: <a href="mailto:santoszuberbuhler2003@gmail.com" target="_blank" >santoszuberbuhler2003@gmail.com</a>
+      `
     );
   } else {
     returnConsoleUnknown(userType);
